@@ -1,0 +1,93 @@
+body {
+    background-color: whitesmoke;
+}
+
+
+
+h1 {
+    color: rgba(165, 126, 163, 0.959);
+    display: flex;
+    justify-content: center;
+}
+
+
+/* form css */
+.formContainer {
+    display: flex;
+    flex-flow: column;
+    border: 2px dotted rgba(165, 126, 163, 0.959);
+   
+}
+fieldset {
+    display: flex;
+    flex-direction: column;
+    color: rgb(184, 143, 182);
+  
+   
+}
+
+.htmlDate {
+     border: 2px black; 
+    
+}
+.htmlConcepts {
+    border: 2px black; 
+    
+}
+.journalEntryhtml {
+    border: 2px black; 
+}
+.moodHtml {
+    border: 2px black; 
+}
+.buttonHtml {
+    border: 2px black;  
+}
+
+button {
+    color: rgb(161, 109, 159, 0.959);
+    height:  5vh;
+    width: 20%;
+    
+}
+input {
+    width: 50%;
+    height: 30%;
+    
+}
+textarea {
+    width: 50%;
+}
+
+
+
+
+/* journal entries css */
+.entryLog {
+     /* border: 2px solid rgba(165, 126, 163, 0.959);  */
+    padding: 6px;
+    padding-bottom: 20px;
+    
+    
+    
+}
+
+.theDate {
+    color:rgba(165, 126, 163, 0.959);
+    float: right;
+    
+}
+
+.theConceptscovered {
+    color:rgba(161, 109, 159, 0.959);
+}
+
+.entryText {
+    color:rgba(161, 109, 159, 0.959);
+   
+}
+
+.dailyMood {
+    color:rgba(160, 111, 158, 0.959);
+    
+}
